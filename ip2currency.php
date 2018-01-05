@@ -1,11 +1,11 @@
 <?php
 /*
  Plugin Name: IP to Currency Adapter
- Plugin URI: http://www.marilcha.in
- Description: Plugin for displaying prices in local currency.
- Author: K.Thomas
+ Plugin URI: https://numbervine.github.io
+ Description: A Wordpress plugin to map client IP address to local currency
+ Author: Thomas Varghese
  Version: 1.1
- Author URI: http://www.marilcha.in
+ Author URI: https://numbervine.github.io
  */
 
 global $ip2c_records_table_name_suffix;

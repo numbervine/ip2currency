@@ -31,8 +31,8 @@ or using the following function in php templates
 ip2currency_get($product_id, $price_idx)
 ```
 For, both the above `$product_id` and `$price_idx` start from 1.
-`$product_id` takes values 1 and 2, as it is setup for 2 products now.
-`$price_idx` can take values 1,2,3,4 or 5 depending on which price record it is trying to get.
+`$product_id` takes values `1` and `2`, as it is setup for 2 products now.
+`$price_idx` can take values `1,2,3,4` or `5` depending on which price record it is trying to get.
 
 ### Example
 ```php
