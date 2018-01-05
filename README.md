@@ -1,8 +1,8 @@
-#IP2Currency
+# IP2Currency
 
 A Wordpress plugin to map client IP address to local currency
 
-##Installation
+## Installation
 
 1. Unpack the zip archive and place the folder ip2currency containing plugin source files, into the wordpress plugins directory.
 2. Login as site admin
@@ -10,13 +10,13 @@ A Wordpress plugin to map client IP address to local currency
 
 IP2Currency should now be installed
 
-##Administration and usage
+## Administration and usage
 
 Once IP2Currency is activated you should see an admin page under Settings -> IP2Currency
 
 On actvation one default price set is created for each product. This set of prices is used as default for the corresponding product in case
-a. the country of client IP is not set, and/or
-b. the country of client IP cannot be determined
+* the country of client IP is not set, and/or
+* the country of client IP cannot be determined
 
 These default rows cannot be deleted. However, they can be edited.
 
