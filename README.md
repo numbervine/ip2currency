@@ -34,11 +34,10 @@ For, both the above `$product_id` and `$price_idx` start from 1.
 `$product_id` takes values 1 and 2, as it is setup for 2 products now.
 `$price_idx` can take values 1,2,3,4 or 5 depending on which price record it is trying to get.
 
-example
+# Example
 ```php
 [ip2currency_get_price product_id=1 idx=5]
 ```
 gets Price5 for product '1 day course' in a post/page
-
 
 and `<?php echo ip2currency_get_price(1,5) ?> ` gets the same price when used in a template.
