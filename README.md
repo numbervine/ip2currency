@@ -2,7 +2,7 @@
 
 A Wordpress plugin to map client IP address to local currency
 
-## Installation
+### Installation
 
 1. Unpack the zip archive and place the folder ip2currency containing plugin source files, into the wordpress plugins directory.
 2. Login as site admin
@@ -10,7 +10,7 @@ A Wordpress plugin to map client IP address to local currency
 
 IP2Currency should now be installed
 
-## Administration and usage
+### Administration and usage
 
 Once IP2Currency is activated you should see an admin page under Settings -> IP2Currency
 
@@ -34,7 +34,7 @@ For, both the above `$product_id` and `$price_idx` start from 1.
 `$product_id` takes values 1 and 2, as it is setup for 2 products now.
 `$price_idx` can take values 1,2,3,4 or 5 depending on which price record it is trying to get.
 
-# Example
+### Example
 ```php
 [ip2currency_get_price product_id=1 idx=5]
 ```
